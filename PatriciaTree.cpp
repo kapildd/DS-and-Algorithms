@@ -75,5 +75,9 @@ int main() {
     cout << p.query("Hell") << endl;
     cout << p.query("Helloo") << endl;
     cout << p.query("Help") << endl;
+    p.insert("Help");
+    cout << p.query("Hello") << endl;
+    cout << p.query("Help") << endl;
+    cout << p.query("Tell") << endl;
     return 0;
 }
